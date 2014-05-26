@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:id="@+id/mainlin"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.21">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+             <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="300dp"
+                android:id="@+id/previewpic"
+                 android:src="@drawable/ic_launcher"
+                 android:layout_alignParentTop="true"
+                 android:layout_alignParentLeft="true"
+                 android:layout_alignParentStart="true"
+                 android:layout_above="@+id/Picker1" />
+
+            <com.example.android.slidingtabsbasic.NumberPicker
+                android:id="@+id/Picker1"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true">
+            </com.example.android.slidingtabsbasic.NumberPicker>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

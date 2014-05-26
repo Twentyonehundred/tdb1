@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ThreeDozerBuild</string>
+    <string name="action_contact">Contact</string>
+    <string name="sample_show_log">Some Shit</string>
+    <string name="intro_message">ThreeDozerBuild</string>
+    <string name="customize">Customize</string>
+    <string name="show_dialog">Show Dialog</string>
+    <string name="undo">Undo</string>
+
+</resources>

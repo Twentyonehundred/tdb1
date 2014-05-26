@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/C:/Users/Chris/AndroidStudioProjects/SlidingTabsBasic2/SlidingTabsBasicSample/src/main/res/values/color.xml -->
+    <eat-comment />
+
+    <color name="blue">#ff33b5e5</color>
+    <color name="caldroid_black">#000000</color>
+    <color name="caldroid_darker_gray">#aaa</color>
+    <color name="caldroid_gray">#CCC</color>
+    <color name="caldroid_holo_blue_dark">#ff0099cc</color>
+    <color name="caldroid_holo_blue_light">#ff33b5e5</color>
+    <color name="caldroid_lighter_gray">#ddd</color>
+    <color name="caldroid_sky_blue">#FFA3E8F7</color>
+    <color name="caldroid_transparent">#00000000</color>
+    <color name="caldroid_white">#FFFFFF</color>
+    <color name="green">#8FCC85</color>
+    <color name="white">#ffffff</color>
+    <!-- From: file:/C:/Users/Chris/AndroidStudioProjects/SlidingTabsBasic2/SlidingTabsBasicSample/src/main/res/values/attrs.xml -->
+    <eat-comment />
+
+    <declare-styleable name="ScrollLayout">
+        <attr name="labelerClass" format="string" />
+        <attr name="labelerFormat" format="string" />
+        <attr name="childWidth" format="dimension" />
+        <attr name="childHeight" format="dimension" />
+    </declare-styleable>
+    <!-- From: file:/C:/Users/Chris/AndroidStudioProjects/SlidingTabsBasic2/SlidingTabsBasicSample/src/main/res/values/template-dimens.xml -->
+    <eat-comment />
+
+    <dimen name="horizontal_page_margin">@dimen/margin_medium</dimen>
+    <dimen name="margin_huge">64dp</dimen>
+    <dimen name="margin_large">32dp</dimen>
+    <dimen name="margin_medium">16dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_tiny">4dp</dimen>
+    <dimen name="vertical_page_margin">@dimen/margin_medium</dimen>
+    <!-- From: file:/C:/Users/Chris/AndroidStudioProjects/SlidingTabsBasic2/SlidingTabsBasicSample/src/main/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="action_contact">Contact</string>
+    <string name="app_name">ThreeDozerBuild</string>
+    <string name="customize">Customize</string>
+    <string name="intro_message">ThreeDozerBuild</string>
+    <string name="sample_show_log">Some Shit</string>
+    <string name="show_dialog">Show Dialog</string>
+    <string name="undo">Undo</string>
+    <!-- From: file:/C:/Users/Chris/AndroidStudioProjects/SlidingTabsBasic2/SlidingTabsBasicSample/src/main/res/values/template-styles.xml -->
+    <eat-comment />
+
+    <style name="AppTheme" parent="Theme.Sample" />
+    <!-- From: file:/C:/Users/Chris/AndroidStudioProjects/SlidingTabsBasic2/SlidingTabsBasicSample/src/main/res/values/styles.xml -->
+    <eat-comment />
+
+    <style name="Scroller">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/slider_back</item>
+        <item name="android:layout_margin">3dp</item>
+    </style>
+    <!-- From: file:/C:/Users/Chris/AndroidStudioProjects/SlidingTabsBasic2/SlidingTabsBasicSample/src/main/res/values/template-styles.xml -->
+    <eat-comment />
+
+    <style name="Theme.Base" parent="android:Theme.Holo.Light" />
+
+    <style name="Theme.Sample" parent="Theme.Base" />
+
+    <style name="Widget" />
+
+    <style name="Widget.SampleMessage">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:lineSpacingMultiplier">1.1</item>
+    </style>
+
+    <style name="Widget.SampleMessageTile">
+        <item name="android:background">@drawable/tile</item>
+        <item name="android:shadowColor">#7F000000</item>
+        <item name="android:shadowDy">-3.5</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+
+</resources>
