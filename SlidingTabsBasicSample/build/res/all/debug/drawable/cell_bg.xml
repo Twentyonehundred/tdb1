@@ -4,4 +4,4 @@
     <item android:drawable="@color/caldroid_holo_blue_light" android:state_pressed="true"/> <!-- pressed -->
     <item android:drawable="@color/caldroid_white" android:state_pressed="false"/> <!-- normal -->
 
-</selector><!-- From: file:/C:/Users/Chris/AndroidStudioProjects/SlidingTabsBasic2/SlidingTabsBasicSample/src/main/res/drawable/cell_bg.xml -->
+</selector><!-- From: file:/C:/Users/chris.smith/AndroidStudioProjects/tdb1/SlidingTabsBasicSample/src/main/res/drawable/cell_bg.xml -->

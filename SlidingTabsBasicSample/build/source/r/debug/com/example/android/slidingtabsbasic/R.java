@@ -84,7 +84,7 @@ containing a value of this type.
     }
     public static final class id {
         public static final int Picker1=0x7f09001a;
-        public static final int calendarView=0x7f090005;
+        public static final int calendarView=0x7f090009;
         public static final int calendar_gridview=0x7f090014;
         public static final int calendar_left_arrow=0x7f09000b;
         public static final int calendar_month_year_textview=0x7f09000c;
@@ -92,21 +92,21 @@ containing a value of this type.
         public static final int calendar_title_view=0x7f09000a;
         public static final int calendar_tv=0x7f090013;
         public static final int custom_cell=0x7f090010;
-        public static final int imageView=0x7f090006;
+        public static final int imageView=0x7f090002;
         public static final int item_subtitle=0x7f090017;
         public static final int item_title=0x7f090018;
-        public static final int log_fragment=0x7f090003;
-        public static final int mainlin=0x7f090004;
+        public static final int log_fragment=0x7f090007;
+        public static final int mainlin=0x7f090008;
         public static final int menu_toggle_log=0x7f09001b;
         public static final int months_infinite_pager=0x7f09000f;
         public static final int previewpic=0x7f090019;
         public static final int sample_content_fragment=0x7f090001;
         public static final int sample_main_layout=0x7f090000;
-        public static final int sample_output=0x7f090002;
+        public static final int sample_output=0x7f090006;
         public static final int sliding_tabs=0x7f090015;
-        public static final int textView=0x7f090007;
-        public static final int textView2=0x7f090008;
-        public static final int textView3=0x7f090009;
+        public static final int textView=0x7f090003;
+        public static final int textView2=0x7f090004;
+        public static final int textView3=0x7f090005;
         public static final int tv1=0x7f090011;
         public static final int tv2=0x7f090012;
         public static final int viewpager=0x7f090016;
@@ -119,10 +119,11 @@ containing a value of this type.
         public static final int custom_cell=0x7f030003;
         public static final int date_cell=0x7f030004;
         public static final int date_grid_fragment=0x7f030005;
-        public static final int fragment_sample=0x7f030006;
-        public static final int gallery=0x7f030007;
-        public static final int pager_item=0x7f030008;
-        public static final int previewer=0x7f030009;
+        public static final int fragment_blank=0x7f030006;
+        public static final int fragment_sample=0x7f030007;
+        public static final int gallery=0x7f030008;
+        public static final int pager_item=0x7f030009;
+        public static final int previewer=0x7f03000a;
     }
     public static final class menu {
         public static final int main=0x7f080000;
@@ -131,10 +132,11 @@ containing a value of this type.
         public static final int action_contact=0x7f060000;
         public static final int app_name=0x7f060001;
         public static final int customize=0x7f060002;
-        public static final int intro_message=0x7f060003;
-        public static final int sample_show_log=0x7f060004;
-        public static final int show_dialog=0x7f060005;
-        public static final int undo=0x7f060006;
+        public static final int hello_blank_fragment=0x7f060003;
+        public static final int intro_message=0x7f060004;
+        public static final int sample_show_log=0x7f060005;
+        public static final int show_dialog=0x7f060006;
+        public static final int undo=0x7f060007;
     }
     public static final class style {
         public static final int AppTheme=0x7f070000;

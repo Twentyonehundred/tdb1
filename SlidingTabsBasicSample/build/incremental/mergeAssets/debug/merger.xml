@@ -2,10 +2,10 @@
 <merger>
 
     <dataSet config="main" >
-        <source path="C:\Users\Chris\AndroidStudioProjects\SlidingTabsBasic2\SlidingTabsBasicSample\src\main\assets" />
+        <source path="C:\Users\chris.smith\AndroidStudioProjects\tdb1\SlidingTabsBasicSample\src\main\assets" />
     </dataSet>
     <dataSet config="debug" >
-        <source path="C:\Users\Chris\AndroidStudioProjects\SlidingTabsBasic2\SlidingTabsBasicSample\src\debug\assets" />
+        <source path="C:\Users\chris.smith\AndroidStudioProjects\tdb1\SlidingTabsBasicSample\src\debug\assets" />
     </dataSet>
 
 </merger>

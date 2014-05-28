@@ -81,6 +81,20 @@ public class SlidingTabsBasicFragment extends Fragment {
         }
 
         @Override
+        public CharSequence getPageTitle(int position) {
+            switch(position) {
+                case 0:
+                    return "Home";
+                case 1:
+                    return "Calendar";
+                case 2:
+                    return "Gallery";
+            }
+            return "Item " + (position + 1);
+        }
+
+
+        @Override
         public Fragment getItem(int position) {
 
             // Return the correct Fragment for each Tab
@@ -89,19 +103,8 @@ public class SlidingTabsBasicFragment extends Fragment {
             switch (position) {
 
                 case 0:
-                    caldroidFragment = new CaldroidFragment();
-
-                    Bundle args = new Bundle();
-                    Calendar cal = Calendar.getInstance();
-                    args.putInt(CaldroidFragment.MONTH, cal.get(Calendar.MONTH) + 1);
-                    args.putInt(CaldroidFragment.YEAR, cal.get(Calendar.YEAR));
-                    args.putBoolean(CaldroidFragment.ENABLE_SWIPE, true);
-                    args.putBoolean(CaldroidFragment.SIX_WEEKS_IN_CALENDAR, true);
-
-                    caldroidFragment.setArguments(args);
-
-                    setCustomResourceForDates();
-                    return caldroidFragment;
+                    BlankFragment blankFragment = new BlankFragment();
+                    return blankFragment;
 
                 case 1:
                     caldroidFragment = new CaldroidFragment();
@@ -119,19 +122,8 @@ public class SlidingTabsBasicFragment extends Fragment {
                     return caldroidFragment;
 
                 case 2:
-                    caldroidFragment = new CaldroidFragment();
-
-                    Bundle args3 = new Bundle();
-                    Calendar cal3 = Calendar.getInstance();
-                    args3.putInt(CaldroidFragment.MONTH, cal3.get(Calendar.MONTH) + 1);
-                    args3.putInt(CaldroidFragment.YEAR, cal3.get(Calendar.YEAR));
-                    args3.putBoolean(CaldroidFragment.ENABLE_SWIPE, true);
-                    args3.putBoolean(CaldroidFragment.SIX_WEEKS_IN_CALENDAR, true);
-
-                    caldroidFragment.setArguments(args3);
-
-                    setCustomResourceForDates();
-                    return caldroidFragment;
+                    BlankFragment blankFragment2 = new BlankFragment();
+                    return blankFragment2;
 
                 default:
                     return null;

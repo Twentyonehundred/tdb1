@@ -2,139 +2,139 @@
 <merger>
 
     <dataSet config="main" >
-        <source path="C:\Users\Chris\AndroidStudioProjects\SlidingTabsBasic2\SlidingTabsBasicSample\src\main\res" >
+        <source path="C:\Users\chris.smith\AndroidStudioProjects\tdb1\SlidingTabsBasicSample\src\main\res" >
             <file
                 name="cell_bg"
-                path="C:\Users\Chris\AndroidStudioProjects\SlidingTabsBasic2\SlidingTabsBasicSample\src\main\res\drawable\cell_bg.xml"
+                path="C:\Users\chris.smith\AndroidStudioProjects\tdb1\SlidingTabsBasicSample\src\main\res\drawable\cell_bg.xml"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="disable_cell"
-                path="C:\Users\Chris\AndroidStudioProjects\SlidingTabsBasic2\SlidingTabsBasicSample\src\main\res\drawable\disable_cell.xml"
+                path="C:\Users\chris.smith\AndroidStudioProjects\tdb1\SlidingTabsBasicSample\src\main\res\drawable\disable_cell.xml"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="left_arrow"
-                path="C:\Users\Chris\AndroidStudioProjects\SlidingTabsBasic2\SlidingTabsBasicSample\src\main\res\drawable\left_arrow.xml"
+                path="C:\Users\chris.smith\AndroidStudioProjects\tdb1\SlidingTabsBasicSample\src\main\res\drawable\left_arrow.xml"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="red_border"
-                path="C:\Users\Chris\AndroidStudioProjects\SlidingTabsBasic2\SlidingTabsBasicSample\src\main\res\drawable\red_border.xml"
+                path="C:\Users\chris.smith\AndroidStudioProjects\tdb1\SlidingTabsBasicSample\src\main\res\drawable\red_border.xml"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="red_border_gray_bg"
-                path="C:\Users\Chris\AndroidStudioProjects\SlidingTabsBasic2\SlidingTabsBasicSample\src\main\res\drawable\red_border_gray_bg.xml"
+                path="C:\Users\chris.smith\AndroidStudioProjects\tdb1\SlidingTabsBasicSample\src\main\res\drawable\red_border_gray_bg.xml"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="right_arrow"
-                path="C:\Users\Chris\AndroidStudioProjects\SlidingTabsBasic2\SlidingTabsBasicSample\src\main\res\drawable\right_arrow.xml"
+                path="C:\Users\chris.smith\AndroidStudioProjects\tdb1\SlidingTabsBasicSample\src\main\res\drawable\right_arrow.xml"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="calendar_next_arrow"
-                path="C:\Users\Chris\AndroidStudioProjects\SlidingTabsBasic2\SlidingTabsBasicSample\src\main\res\drawable-hdpi\calendar_next_arrow.png"
+                path="C:\Users\chris.smith\AndroidStudioProjects\tdb1\SlidingTabsBasicSample\src\main\res\drawable-hdpi\calendar_next_arrow.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="calendar_prev_arrow"
-                path="C:\Users\Chris\AndroidStudioProjects\SlidingTabsBasic2\SlidingTabsBasicSample\src\main\res\drawable-hdpi\calendar_prev_arrow.png"
+                path="C:\Users\chris.smith\AndroidStudioProjects\tdb1\SlidingTabsBasicSample\src\main\res\drawable-hdpi\calendar_prev_arrow.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="ic_launcher"
-                path="C:\Users\Chris\AndroidStudioProjects\SlidingTabsBasic2\SlidingTabsBasicSample\src\main\res\drawable-hdpi\ic_launcher.png"
+                path="C:\Users\chris.smith\AndroidStudioProjects\tdb1\SlidingTabsBasicSample\src\main\res\drawable-hdpi\ic_launcher.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="slider_back"
-                path="C:\Users\Chris\AndroidStudioProjects\SlidingTabsBasic2\SlidingTabsBasicSample\src\main\res\drawable-hdpi\slider_back.xml"
+                path="C:\Users\chris.smith\AndroidStudioProjects\tdb1\SlidingTabsBasicSample\src\main\res\drawable-hdpi\slider_back.xml"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="tile"
-                path="C:\Users\Chris\AndroidStudioProjects\SlidingTabsBasic2\SlidingTabsBasicSample\src\main\res\drawable-hdpi\tile.9.png"
+                path="C:\Users\chris.smith\AndroidStudioProjects\tdb1\SlidingTabsBasicSample\src\main\res\drawable-hdpi\tile.9.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="ic_launcher"
-                path="C:\Users\Chris\AndroidStudioProjects\SlidingTabsBasic2\SlidingTabsBasicSample\src\main\res\drawable-mdpi\ic_launcher.png"
+                path="C:\Users\chris.smith\AndroidStudioProjects\tdb1\SlidingTabsBasicSample\src\main\res\drawable-mdpi\ic_launcher.png"
                 qualifiers="mdpi"
                 type="drawable" />
             <file
                 name="ic_launcher"
-                path="C:\Users\Chris\AndroidStudioProjects\SlidingTabsBasic2\SlidingTabsBasicSample\src\main\res\drawable-xhdpi\ic_launcher.png"
+                path="C:\Users\chris.smith\AndroidStudioProjects\tdb1\SlidingTabsBasicSample\src\main\res\drawable-xhdpi\ic_launcher.png"
                 qualifiers="xhdpi"
                 type="drawable" />
             <file
                 name="ic_launcher"
-                path="C:\Users\Chris\AndroidStudioProjects\SlidingTabsBasic2\SlidingTabsBasicSample\src\main\res\drawable-xxhdpi\ic_launcher.png"
+                path="C:\Users\chris.smith\AndroidStudioProjects\tdb1\SlidingTabsBasicSample\src\main\res\drawable-xxhdpi\ic_launcher.png"
                 qualifiers="xxhdpi"
                 type="drawable" />
             <file
                 name="activity_main"
-                path="C:\Users\Chris\AndroidStudioProjects\SlidingTabsBasic2\SlidingTabsBasicSample\src\main\res\layout\activity_main.xml"
+                path="C:\Users\chris.smith\AndroidStudioProjects\tdb1\SlidingTabsBasicSample\src\main\res\layout\activity_main.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="calendar"
-                path="C:\Users\Chris\AndroidStudioProjects\SlidingTabsBasic2\SlidingTabsBasicSample\src\main\res\layout\calendar.xml"
+                path="C:\Users\chris.smith\AndroidStudioProjects\tdb1\SlidingTabsBasicSample\src\main\res\layout\calendar.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="calendar_view"
-                path="C:\Users\Chris\AndroidStudioProjects\SlidingTabsBasic2\SlidingTabsBasicSample\src\main\res\layout\calendar_view.xml"
+                path="C:\Users\chris.smith\AndroidStudioProjects\tdb1\SlidingTabsBasicSample\src\main\res\layout\calendar_view.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="custom_cell"
-                path="C:\Users\Chris\AndroidStudioProjects\SlidingTabsBasic2\SlidingTabsBasicSample\src\main\res\layout\custom_cell.xml"
+                path="C:\Users\chris.smith\AndroidStudioProjects\tdb1\SlidingTabsBasicSample\src\main\res\layout\custom_cell.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="date_cell"
-                path="C:\Users\Chris\AndroidStudioProjects\SlidingTabsBasic2\SlidingTabsBasicSample\src\main\res\layout\date_cell.xml"
+                path="C:\Users\chris.smith\AndroidStudioProjects\tdb1\SlidingTabsBasicSample\src\main\res\layout\date_cell.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="date_grid_fragment"
-                path="C:\Users\Chris\AndroidStudioProjects\SlidingTabsBasic2\SlidingTabsBasicSample\src\main\res\layout\date_grid_fragment.xml"
+                path="C:\Users\chris.smith\AndroidStudioProjects\tdb1\SlidingTabsBasicSample\src\main\res\layout\date_grid_fragment.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="fragment_sample"
-                path="C:\Users\Chris\AndroidStudioProjects\SlidingTabsBasic2\SlidingTabsBasicSample\src\main\res\layout\fragment_sample.xml"
+                path="C:\Users\chris.smith\AndroidStudioProjects\tdb1\SlidingTabsBasicSample\src\main\res\layout\fragment_sample.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="gallery"
-                path="C:\Users\Chris\AndroidStudioProjects\SlidingTabsBasic2\SlidingTabsBasicSample\src\main\res\layout\gallery.xml"
+                path="C:\Users\chris.smith\AndroidStudioProjects\tdb1\SlidingTabsBasicSample\src\main\res\layout\gallery.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="pager_item"
-                path="C:\Users\Chris\AndroidStudioProjects\SlidingTabsBasic2\SlidingTabsBasicSample\src\main\res\layout\pager_item.xml"
+                path="C:\Users\chris.smith\AndroidStudioProjects\tdb1\SlidingTabsBasicSample\src\main\res\layout\pager_item.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="previewer"
-                path="C:\Users\Chris\AndroidStudioProjects\SlidingTabsBasic2\SlidingTabsBasicSample\src\main\res\layout\previewer.xml"
+                path="C:\Users\chris.smith\AndroidStudioProjects\tdb1\SlidingTabsBasicSample\src\main\res\layout\previewer.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="activity_main"
-                path="C:\Users\Chris\AndroidStudioProjects\SlidingTabsBasic2\SlidingTabsBasicSample\src\main\res\layout-w720dp\activity_main.xml"
+                path="C:\Users\chris.smith\AndroidStudioProjects\tdb1\SlidingTabsBasicSample\src\main\res\layout-w720dp\activity_main.xml"
                 qualifiers="w720dp"
                 type="layout" />
             <file
                 name="main"
-                path="C:\Users\Chris\AndroidStudioProjects\SlidingTabsBasic2\SlidingTabsBasicSample\src\main\res\menu\main.xml"
+                path="C:\Users\chris.smith\AndroidStudioProjects\tdb1\SlidingTabsBasicSample\src\main\res\menu\main.xml"
                 qualifiers=""
                 type="menu" />
             <file
-                path="C:\Users\Chris\AndroidStudioProjects\SlidingTabsBasic2\SlidingTabsBasicSample\src\main\res\values\attrs.xml"
+                path="C:\Users\chris.smith\AndroidStudioProjects\tdb1\SlidingTabsBasicSample\src\main\res\values\attrs.xml"
                 qualifiers="" >
                 <declare-styleable name="ScrollLayout" >
                     <attr
@@ -152,19 +152,19 @@
                 </declare-styleable>
             </file>
             <file
-                path="C:\Users\Chris\AndroidStudioProjects\SlidingTabsBasic2\SlidingTabsBasicSample\src\main\res\values\color.xml"
+                path="C:\Users\chris.smith\AndroidStudioProjects\tdb1\SlidingTabsBasicSample\src\main\res\values\color.xml"
                 qualifiers="" >
                 <color name="caldroid_sky_blue" >#FFA3E8F7
                 </color>
-                <color name="caldroid_gray" >#CCC
+                <color name="green" >#8FCC85
                 </color>
                 <color name="blue" >#ff33b5e5
                 </color>
-                <color name="green" >#8FCC85
-                </color>
-                <color name="caldroid_holo_blue_light" >#ff33b5e5
+                <color name="caldroid_gray" >#CCC
                 </color>
                 <color name="caldroid_white" >#FFFFFF
+                </color>
+                <color name="caldroid_holo_blue_light" >#ff33b5e5
                 </color>
                 <color name="white" >#ffffff
                 </color>
@@ -180,8 +180,10 @@
                 </color>
             </file>
             <file
-                path="C:\Users\Chris\AndroidStudioProjects\SlidingTabsBasic2\SlidingTabsBasicSample\src\main\res\values\strings.xml"
+                path="C:\Users\chris.smith\AndroidStudioProjects\tdb1\SlidingTabsBasicSample\src\main\res\values\strings.xml"
                 qualifiers="" >
+                <string name="hello_blank_fragment" >Hello blank fragment
+                </string>
                 <string name="undo" >Undo
                 </string>
                 <string name="show_dialog" >Show Dialog
@@ -192,13 +194,13 @@
                 </string>
                 <string name="intro_message" >ThreeDozerBuild
                 </string>
-                <string name="customize" >Customize
-                </string>
                 <string name="action_contact" >Contact
+                </string>
+                <string name="customize" >Customize
                 </string>
             </file>
             <file
-                path="C:\Users\Chris\AndroidStudioProjects\SlidingTabsBasic2\SlidingTabsBasicSample\src\main\res\values\styles.xml"
+                path="C:\Users\chris.smith\AndroidStudioProjects\tdb1\SlidingTabsBasicSample\src\main\res\values\styles.xml"
                 qualifiers="" >
 
                 <style name="Scroller" >
@@ -217,15 +219,15 @@ wrap_content
                 </style>
             </file>
             <file
-                path="C:\Users\Chris\AndroidStudioProjects\SlidingTabsBasic2\SlidingTabsBasicSample\src\main\res\values\template-dimens.xml"
+                path="C:\Users\chris.smith\AndroidStudioProjects\tdb1\SlidingTabsBasicSample\src\main\res\values\template-dimens.xml"
                 qualifiers="" >
                 <dimen name="margin_huge" >64dp
                 </dimen>
                 <dimen name="margin_tiny" >4dp
                 </dimen>
-                <dimen name="horizontal_page_margin" >@dimen/margin_medium
-                </dimen>
                 <dimen name="margin_large" >32dp
+                </dimen>
+                <dimen name="horizontal_page_margin" >@dimen/margin_medium
                 </dimen>
                 <dimen name="margin_medium" >16dp
                 </dimen>
@@ -235,7 +237,7 @@ wrap_content
                 </dimen>
             </file>
             <file
-                path="C:\Users\Chris\AndroidStudioProjects\SlidingTabsBasic2\SlidingTabsBasicSample\src\main\res\values\template-styles.xml"
+                path="C:\Users\chris.smith\AndroidStudioProjects\tdb1\SlidingTabsBasicSample\src\main\res\values\template-styles.xml"
                 qualifiers="" >
 
                 <style name="Widget" />
@@ -277,7 +279,7 @@ wrap_content
                     parent="Theme.Sample" />
             </file>
             <file
-                path="C:\Users\Chris\AndroidStudioProjects\SlidingTabsBasic2\SlidingTabsBasicSample\src\main\res\values-sw600dp\template-dimens.xml"
+                path="C:\Users\chris.smith\AndroidStudioProjects\tdb1\SlidingTabsBasicSample\src\main\res\values-sw600dp\template-dimens.xml"
                 qualifiers="sw600dp" >
                 <dimen name="vertical_page_margin" >@dimen/margin_medium
                 </dimen>
@@ -285,7 +287,7 @@ wrap_content
                 </dimen>
             </file>
             <file
-                path="C:\Users\Chris\AndroidStudioProjects\SlidingTabsBasic2\SlidingTabsBasicSample\src\main\res\values-sw600dp\template-styles.xml"
+                path="C:\Users\chris.smith\AndroidStudioProjects\tdb1\SlidingTabsBasicSample\src\main\res\values-sw600dp\template-styles.xml"
                 qualifiers="sw600dp" >
 
                 <style name="Widget.SampleMessage" >
@@ -300,14 +302,19 @@ wrap_content
                     </item>
                 </style>
             </file>
+            <file
+                name="fragment_blank"
+                path="C:\Users\chris.smith\AndroidStudioProjects\tdb1\SlidingTabsBasicSample\src\main\res\layout\fragment_blank.xml"
+                qualifiers=""
+                type="layout" />
         </source>
-        <source path="C:\Users\Chris\AndroidStudioProjects\SlidingTabsBasic2\SlidingTabsBasicSample\src\common\res" />
-        <source path="C:\Users\Chris\AndroidStudioProjects\SlidingTabsBasic2\SlidingTabsBasicSample\src\template\res" />
-        <source path="C:\Users\Chris\AndroidStudioProjects\SlidingTabsBasic2\SlidingTabsBasicSample\build\res\rs\debug" />
-        <source path="C:\Users\Chris\AndroidStudioProjects\SlidingTabsBasic2\SlidingTabsBasicSample\build\res\generated\debug" />
+        <source path="C:\Users\chris.smith\AndroidStudioProjects\tdb1\SlidingTabsBasicSample\src\common\res" />
+        <source path="C:\Users\chris.smith\AndroidStudioProjects\tdb1\SlidingTabsBasicSample\src\template\res" />
+        <source path="C:\Users\chris.smith\AndroidStudioProjects\tdb1\SlidingTabsBasicSample\build\res\rs\debug" />
+        <source path="C:\Users\chris.smith\AndroidStudioProjects\tdb1\SlidingTabsBasicSample\build\res\generated\debug" />
     </dataSet>
     <dataSet config="debug" >
-        <source path="C:\Users\Chris\AndroidStudioProjects\SlidingTabsBasic2\SlidingTabsBasicSample\src\debug\res" />
+        <source path="C:\Users\chris.smith\AndroidStudioProjects\tdb1\SlidingTabsBasicSample\src\debug\res" />
     </dataSet>
 
 </merger>

@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/SlidingTabsBasic2.iml" filepath="$PROJECT_DIR$/SlidingTabsBasic2.iml" />
       <module fileurl="file://$PROJECT_DIR$/SlidingTabsBasicSample/SlidingTabsBasicSample.iml" filepath="$PROJECT_DIR$/SlidingTabsBasicSample/SlidingTabsBasicSample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tdb1.iml" filepath="$PROJECT_DIR$/tdb1.iml" />
     </modules>
   </component>
 </project>

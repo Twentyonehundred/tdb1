@@ -3,4 +3,4 @@
     android:src="@drawable/calendar_next_arrow"
     android:tileMode="disabled" android:gravity="center" >
 </bitmap>
-<!-- From: file:/C:/Users/Chris/AndroidStudioProjects/SlidingTabsBasic2/SlidingTabsBasicSample/src/main/res/drawable/right_arrow.xml -->
+<!-- From: file:/C:/Users/chris.smith/AndroidStudioProjects/tdb1/SlidingTabsBasicSample/src/main/res/drawable/right_arrow.xml -->
