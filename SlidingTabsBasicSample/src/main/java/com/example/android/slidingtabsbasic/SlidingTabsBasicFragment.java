@@ -13,6 +13,7 @@ import com.example.android.caldroid.CaldroidFragment;
 import com.example.android.common.view.SlidingTabLayout;
 
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
 
@@ -114,9 +115,51 @@ public class SlidingTabsBasicFragment extends Fragment {
                     args2.putInt(CaldroidFragment.MONTH, cal2.get(Calendar.MONTH) + 1);
                     args2.putInt(CaldroidFragment.YEAR, cal2.get(Calendar.YEAR));
                     args2.putBoolean(CaldroidFragment.ENABLE_SWIPE, true);
-                    args2.putBoolean(CaldroidFragment.SIX_WEEKS_IN_CALENDAR, true);
+                    args2.putBoolean(CaldroidFragment.SIX_WEEKS_IN_CALENDAR, false);
+                    args2.putInt(CaldroidFragment.START_DAY_OF_WEEK, 2);
 
                     caldroidFragment.setArguments(args2);
+
+                    Calendar cal = Calendar.getInstance();
+
+                    // Min date is last 7 days
+                    cal.add(Calendar.DATE, 1);
+                    Date minDate = cal.getTime();
+
+                    // Max date is next 7 days
+                    cal = Calendar.getInstance();
+                    cal.add(Calendar.DATE, 14);
+                    Date maxDate = cal.getTime();
+
+                    // Set selected dates
+                    // From Date
+                    cal = Calendar.getInstance();
+                    cal.add(Calendar.DATE, 2);
+                    Date fromDate = cal.getTime();
+
+                    // To Date
+                    cal = Calendar.getInstance();
+                    cal.add(Calendar.DATE, 3);
+                    Date toDate = cal.getTime();
+
+                    // Set disabled dates
+                    ArrayList<Date> disabledDates = new ArrayList<Date>();
+                    for (int i = 5; i < 8; i++) {
+                        cal = Calendar.getInstance();
+                        cal.add(Calendar.DATE, i);
+                        disabledDates.add(cal.getTime());
+                    }
+
+                    // Customize
+                    caldroidFragment.setMinDate(minDate);
+                    caldroidFragment.setMaxDate(maxDate);
+                    caldroidFragment.setDisableDates(disabledDates);
+                    caldroidFragment.setSelectedDates(fromDate, toDate);
+                    //caldroidFragment.setSixWeeksInCalendar(false);
+                    //caldroidFragment.setShowNavigationArrows(false);
+                    //caldroidFragment.setEnableSwipe(false);
+
+                    caldroidFragment.refreshView();
 
                     setCustomResourceForDates();
                     return caldroidFragment;

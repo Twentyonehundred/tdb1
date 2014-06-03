@@ -144,8 +144,7 @@ public class CaldroidGridAdapter extends BaseAdapter {
 	 */
 	@SuppressWarnings("unchecked")
 	private void populateFromCaldroidData() {
-		disableDates = (ArrayList<DateTime>) caldroidData
-				.get(CaldroidFragment.DISABLE_DATES);
+		disableDates = (ArrayList<DateTime>) caldroidData.get(CaldroidFragment.DISABLE_DATES);
 		if (disableDates != null) {
 			disableDatesMap.clear();
 			for (DateTime dateTime : disableDates) {
@@ -153,8 +152,7 @@ public class CaldroidGridAdapter extends BaseAdapter {
 			}
 		}
 
-		selectedDates = (ArrayList<DateTime>) caldroidData
-				.get(CaldroidFragment.SELECTED_DATES);
+		selectedDates = (ArrayList<DateTime>) caldroidData.get(CaldroidFragment.SELECTED_DATES);
 		if (selectedDates != null) {
 			selectedDatesMap.clear();
 			for (DateTime dateTime : selectedDates) {
@@ -162,14 +160,10 @@ public class CaldroidGridAdapter extends BaseAdapter {
 			}
 		}
 
-		minDateTime = (DateTime) caldroidData
-				.get(CaldroidFragment._MIN_DATE_TIME);
-		maxDateTime = (DateTime) caldroidData
-				.get(CaldroidFragment._MAX_DATE_TIME);
-		startDayOfWeek = (Integer) caldroidData
-				.get(CaldroidFragment.START_DAY_OF_WEEK);
-		sixWeeksInCalendar = (Boolean) caldroidData
-				.get(CaldroidFragment.SIX_WEEKS_IN_CALENDAR);
+		minDateTime = (DateTime) caldroidData.get(CaldroidFragment._MIN_DATE_TIME);
+		maxDateTime = (DateTime) caldroidData.get(CaldroidFragment._MAX_DATE_TIME);
+		startDayOfWeek = (Integer) caldroidData.get(CaldroidFragment.START_DAY_OF_WEEK);
+		sixWeeksInCalendar = (Boolean) caldroidData.get(CaldroidFragment.SIX_WEEKS_IN_CALENDAR);
 
 		this.datetimeList = com.example.android.caldroid.CalendarHelper.getFullWeeks(this.month, this.year,
                 startDayOfWeek, sixWeeksInCalendar);
@@ -263,8 +257,7 @@ public class CaldroidGridAdapter extends BaseAdapter {
 			if (CaldroidFragment.selectedBackgroundDrawable != -1) {
 				cellView.setBackgroundResource(CaldroidFragment.selectedBackgroundDrawable);
 			} else {
-				cellView.setBackgroundColor(resources
-						.getColor(R.color.caldroid_sky_blue));
+				cellView.setBackgroundColor(resources.getColor(R.color.caldroid_sky_blue));
 			}
 
 			cellView.setTextColor(CaldroidFragment.selectedTextColor);
@@ -307,8 +300,7 @@ public class CaldroidGridAdapter extends BaseAdapter {
 
 	@Override
 	public View getView(int position, View convertView, ViewGroup parent) {
-		LayoutInflater inflater = (LayoutInflater) context
-				.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+		LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
 		TextView cellView = (TextView) convertView;
 
 		// For reuse

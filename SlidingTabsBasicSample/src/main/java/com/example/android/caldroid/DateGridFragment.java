@@ -57,10 +57,8 @@ public class DateGridFragment extends Fragment {
 	}
 
 	@Override
-	public View onCreateView(LayoutInflater inflater, ViewGroup container,
-			Bundle savedInstanceState) {
-		gridView = (GridView) inflater.inflate(R.layout.date_grid_fragment,
-				container, false);
+	public View onCreateView(LayoutInflater inflater, ViewGroup container,Bundle savedInstanceState) {
+		gridView = (GridView) inflater.inflate(R.layout.date_grid_fragment,container, false);
 		// Client normally needs to provide the adapter and onItemClickListener
 		// before the fragment is attached to avoid complex crash due to
 		// fragment life cycles

@@ -138,7 +138,7 @@ public class CaldroidFragment extends DialogFragment {
     public final static String SHOW_NAVIGATION_ARROWS = "showNavigationArrows";
     public final static String DISABLE_DATES = "disableDates";
     public final static String SELECTED_DATES = "selectedDates";
-    public final static String MIN_DATE = "minDate";
+    public static String MIN_DATE = "minDate";
     public final static String MAX_DATE = "maxDate";
     public final static String ENABLE_SWIPE = "enableSwipe";
     public final static String START_DAY_OF_WEEK = "startDayOfWeek";
@@ -958,22 +958,19 @@ public class CaldroidFragment extends DialogFragment {
             }
 
             // Should show arrow
-            showNavigationArrows = args
-                    .getBoolean(SHOW_NAVIGATION_ARROWS, true);
+            showNavigationArrows = args.getBoolean(SHOW_NAVIGATION_ARROWS, false);
 
             // Should enable swipe to change month
             enableSwipe = args.getBoolean(ENABLE_SWIPE, true);
 
             // Get sixWeeksInCalendar
-            sixWeeksInCalendar = args.getBoolean(SIX_WEEKS_IN_CALENDAR, true);
+            sixWeeksInCalendar = args.getBoolean(SIX_WEEKS_IN_CALENDAR, false);
 
             // Get clickable setting
-            enableClickOnDisabledDates = args.getBoolean(
-                    ENABLE_CLICK_ON_DISABLED_DATES, false);
+            enableClickOnDisabledDates = args.getBoolean(ENABLE_CLICK_ON_DISABLED_DATES, false);
 
             // Get disable dates
-            ArrayList<String> disableDateStrings = args
-                    .getStringArrayList(DISABLE_DATES);
+            ArrayList<String> disableDateStrings = args.getStringArrayList(DISABLE_DATES);
             if (disableDateStrings != null && disableDateStrings.size() > 0) {
                 disableDates.clear();
                 for (String dateString : disableDateStrings) {
@@ -1061,6 +1058,16 @@ public class CaldroidFragment extends DialogFragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         retrieveInitialArgs();
+        String dateString = "06/10/2014";
+        SimpleDateFormat dateFormat = new SimpleDateFormat("MM/dd/yyyy");
+        Date convertedDate = new Date();
+        MIN_DATE = convertedDate.toString();
+        try {
+            convertedDate = dateFormat.parse(dateString);
+        } catch (ParseException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
 
         // To support keeping instance for dialog
         if (getDialog() != null) {

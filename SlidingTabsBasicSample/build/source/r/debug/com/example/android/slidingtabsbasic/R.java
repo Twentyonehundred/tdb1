@@ -54,11 +54,12 @@ containing a value of this type.
         public static final int caldroid_holo_blue_dark=0x7f040004;
         public static final int caldroid_holo_blue_light=0x7f040005;
         public static final int caldroid_lighter_gray=0x7f040006;
-        public static final int caldroid_sky_blue=0x7f040007;
-        public static final int caldroid_transparent=0x7f040008;
-        public static final int caldroid_white=0x7f040009;
-        public static final int green=0x7f04000a;
-        public static final int white=0x7f04000b;
+        public static final int caldroid_red=0x7f040007;
+        public static final int caldroid_sky_blue=0x7f040008;
+        public static final int caldroid_transparent=0x7f040009;
+        public static final int caldroid_white=0x7f04000a;
+        public static final int green=0x7f04000b;
+        public static final int white=0x7f04000c;
     }
     public static final class dimen {
         public static final int horizontal_page_margin=0x7f050000;
@@ -84,7 +85,7 @@ containing a value of this type.
     }
     public static final class id {
         public static final int Picker1=0x7f09001a;
-        public static final int calendarView=0x7f090009;
+        public static final int calendarView=0x7f090006;
         public static final int calendar_gridview=0x7f090014;
         public static final int calendar_left_arrow=0x7f09000b;
         public static final int calendar_month_year_textview=0x7f09000c;
@@ -95,18 +96,18 @@ containing a value of this type.
         public static final int imageView=0x7f090002;
         public static final int item_subtitle=0x7f090017;
         public static final int item_title=0x7f090018;
-        public static final int log_fragment=0x7f090007;
-        public static final int mainlin=0x7f090008;
+        public static final int log_fragment=0x7f090004;
+        public static final int mainlin=0x7f090005;
         public static final int menu_toggle_log=0x7f09001b;
         public static final int months_infinite_pager=0x7f09000f;
         public static final int previewpic=0x7f090019;
         public static final int sample_content_fragment=0x7f090001;
         public static final int sample_main_layout=0x7f090000;
-        public static final int sample_output=0x7f090006;
+        public static final int sample_output=0x7f090003;
         public static final int sliding_tabs=0x7f090015;
-        public static final int textView=0x7f090003;
-        public static final int textView2=0x7f090004;
-        public static final int textView3=0x7f090005;
+        public static final int textView=0x7f090007;
+        public static final int textView2=0x7f090008;
+        public static final int textView3=0x7f090009;
         public static final int tv1=0x7f090011;
         public static final int tv2=0x7f090012;
         public static final int viewpager=0x7f090016;
